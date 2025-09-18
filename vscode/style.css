@@ -1,5 +1,10 @@
 html{
     background-color: rgb(51, 45, 45);
+    background-image: url(imagens/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 h1{
     text-align: center;
@@ -7,7 +12,7 @@ h1{
 }
 .navbar ul{
     list-style-type:  none;
-    background-color: grey;
+    background-color: rgb(110, 103, 129);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -22,9 +27,49 @@ h1{
 .navbar a:hover{
     background-color: rgb(65, 62, 62);
 }
+
+/*GALERIA AGUARDADOS*/
+
+.galerias .galeria-aguardados{
+    display: inline-block;
+    border: 1px solid rgb(155, 154, 154);
+    margin: 5px;
+    width: 200px;
+}
+.galerias .description{
+    padding: 10px;
+    text-align: center;
+    color: aqua;
+}
+.galerias .galeria-aguardados:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.galerias .populares{
+    display: inline-block;
+    border: 1px solid rgb(155, 154, 154);
+    margin: 5px;
+    width: 200px;
+}
+.galerias .populares:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.galerias img{
+    width: 100%;
+    height: 250px;
+}
+.galerias h1{
+    color: aqua; text-align: left;
+}
+.Sobre{
+    padding: 10px;
+}
+/*FORMULARIO*/
 form{
     color: grey;
 }
+
+/*RODAPE*/
+
 .rodape {
     background-color: black;
     color: white;
@@ -49,6 +94,9 @@ form{
     align-items: stretch;
     padding: 60px 10px 40px 10px;
 }
+.rodape-div img{
+    width: 50%;
+}
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
     display: flex;
     width: calc(100% / 4 - 20px);
@@ -59,8 +107,20 @@ form{
 }
 .rodape-direitos {
     width: calc(100% - 20px);
-    background-color: aquamarine;
+    background-color: rgb(79, 156, 111);
     padding: 10px;
     margin: 0px;
     text-align: center;
+}
+
+/*JOGOS*/
+
+.ListaJogos{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.ListaJogos img{
+    width: 225px;
+    height: 250px;
 }
