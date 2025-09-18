@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(51, 45, 45);
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style-type:  none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(65, 62, 62);
+}
+form{
+    color: grey;
+}
+.rodape {
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 11px;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.rodape a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span {
+    color: rgb(95, 141, 57);
+}
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
