@@ -1,14 +1,33 @@
+@font-face {
+    font-family: "Audiowide";
+    src: url(./Fontes/Audiowide-Regular.ttf);
+}
+@font-face {
+    font-family: "FugazOne";
+    src: url(./Fontes/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: "JotiOne";
+    src: url(./Fontes/JotiOne-Regular.ttf);
+}
+@font-face {
+    font-family: "LimeLight";
+    src: url(./Fontes/Limelight-Regular.ttf);
+}
+
+
 html{
     background-color: rgb(51, 45, 45);
     background-image: url(imagens/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 h1{
     text-align: center;
     text-decoration: none;
+    font-family: "FugazOne", system-ui;
 }
 .navbar ul{
     list-style-type:  none;
