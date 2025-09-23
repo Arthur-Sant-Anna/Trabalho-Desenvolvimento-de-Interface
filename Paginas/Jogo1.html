@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games Review</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" type="image/png" href="../Icones/icone-GR.png">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html" target="_self" style="float: left;">
+                        <img src="../icones/icone-GR.png">
+                    </a>
+                </li>
+                <li><a href="../paginas/Jogos.html" target="_self" style="float: left; font-size: 25px;">Jogos</a></li>
+                <li><a href="../paginas/Login.html" target="_self" style="float: right; font-size: 25px;">Login</a></li>
+                <li><a href="../Paginas/Info.html" target="_self" style="float: right; font-size: 25px; text-align: center;"><img src="../Icones/information.png" style="width: 22px; text-align: center;">Info</a></li>
+            </ul>
+        </nav>
+
+        <div class="infojogo">
+
+            <div class="jogo-img">
+                <h1 style="color: aqua; float: inline-start;">Hollow Knight: SilkSong</h1>
+                <img src="../Imagens/HKSilksong.jpg" width="300" height="350" style="border-radius: 10px;">
+            </div>
+            <div class="jogo-video">
+                <h1 style="color: aqua; margin-right: 60px;">Trailer</h1>
+                <video src="../Videos/Hollow Knight Silksong - Release Trailer - Team Cherry (720p, h264, youtube).mp4" style="text-align: center; border-radius: 20px; margin-top: 10px; margin-right: 60px;" controls width="600" height="350"></video>
+            </div>
+            <div class="sinopse">
+                <h1 style="color: aqua;">Sinopse</h1>
+                <p style="color: white; font-size: 25px;">A história acompanha Hornet, a antiga princesa do reino caído de Hallownest, enquanto ela é capturada e transportada para a misteriosa nova terra de Pharloom, onde ela deve navegar por um mundo vasto e interconectado, repleto de inimigos únicos, chefes desafiadores e ambientes intricados.</p>
+                <div class="nota">
+                    <h1 style="color: aqua;">Nota do Jogo:</h1>
+                    <a style="color: aqua; font-size: 60px; text-align: center; margin-left: 180px;">
+                        <img src="../Icones/favorite.png" style="width: 50px; margin-top: 40px;">
+                        8,6/10
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h1 style="color: aqua;">Sua Review</h1>
+        <div class="submit-review-section">
+            <form>
+                <label for="reviewer-name">Nome:</label>
+                <input type="text" id="reviewer-name" name="reviewer-name" required>
+    
+                <label for="review-rating">Nota:</label>
+                <select id="review-rating" name="review-rating">
+                    <option></option>
+                    <option value="10">10</option>
+                    <option value="9">9</option>
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+    
+                <label for="review-text-input">Comentário:</label>
+                <textarea id="review-text-input" name="review-text-input" rows="5" required></textarea>
+    
+                <button type="submit">Avaliar</button>
+            </form>
+        </div>
+    </body>
+</html>
