@@ -3,11 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>pagina 3</title>
+        <title>Games Review</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" type="image/png" href="../Icones/icone-GR.png">
     </head>
     <body>
-        <a href="../index.html">
-            <button type="button" style="background-color: aqua; border-radius: 5px; text-decoration: none; color: rgb(0, 0, 0);">Voltar para Página Principal</button>
-        </a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html" target="_self" style="float: left;">
+                        <img src="../icones/icone-GR.png">
+                    </a>
+                </li>
+                <li><a href="../paginas/Jogos.html" target="_self" style="float: left; font-size: 25px;">Jogos</a></li>
+                <li><a href="../paginas/Login.html" target="_self" style="float: right; font-size: 25px;">Login</a></li>
+                <li><a href="../Paginas/Info.html" target="_self" style="float: right; font-size: 25px; text-align: center;"><img src="../Icones/information.png" style="width: 22px; text-align: center;">Info</a></li>
+            </ul>
+        </nav>
+
+        <div class="infojogo">
+
+            <div class="jogo-img">
+                <h1 style="color: aqua; float: inline-start;">Clair Obscur Expedition 33</h1>
+                <img src="../Imagens/ClairObscurExpedition33.png" width="300" height="350" style="border-radius: 10px;">
+            </div>
+            <div class="jogo-video">
+                <h1 style="color: aqua; margin-right: 60px;">Trailer</h1>
+                <video src="../Videos/Clair Obscur： Expedition 33 - Launch Trailer ｜ PS5 Games.mp4" style="text-align: center; border-radius: 20px; margin-top: 10px; margin-right: 60px;" controls width="600" height="350"></video>
+            </div>
+            <div class="sinopse">
+                <h1 style="color: aqua;">Sinopse</h1>
+                <p style="color: white; font-size: 20px;">"Clair Obscur: Expedition 33" é um RPG de fantasia em turnos onde a humanidade é ameaçada por uma entidade, a Pintora, que faz pessoas desaparecerem ao pintar um número amaldiçoado em um monólito a cada ano. O jogo segue a Expedição 33, um grupo de sobreviventes que parte em uma missão final para destruir a Pintora e quebrar este ciclo de morte, explorando um mundo inspirado na Belle Époque francesa e utilizando um sistema de combate inovador que mescla elementos de turnos com tempo real. </p>
+                <div class="nota">
+                    <h1 style="color: aqua;">Nota do Jogo:</h1>
+                    <a style="color: aqua; font-size: 60px; text-align: center; margin-left: 180px;">
+                        <img src="../Icones/favorite.png" style="width: 50px; margin-top: 40px;">
+                        9,2/10
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h1 style="color: aqua;">Sua Review</h1>
+        <div class="submit-review-section">
+            <form>
+                <label for="reviewer-name">Nome:</label>
+                <input type="text" id="reviewer-name" name="reviewer-name" required>
+    
+                <label for="review-rating">Nota:</label>
+                <select id="review-rating" name="review-rating">
+                    <option></option>
+                    <option value="10">10</option>
+                    <option value="9">9</option>
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+    
+                <label for="review-text-input">Comentário:</label>
+                <textarea id="review-text-input" name="review-text-input" rows="5" required></textarea>
+    
+                <button type="submit">Avaliar</button>
+            </form>
+        </div>
     </body>
 </html>
